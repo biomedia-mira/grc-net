@@ -1,0 +1,16 @@
+.idea/
+data/synth3d
+data/cardiac3d
+img/__pycache__/
+nets/__pycache__/
+output/
+utils/__pycache__/
+cache
+data/ASOCA/images/*
+!data/ASOCA/images/.gitkeep
+data/MM-WHS/images/*
+!data/MM-WHS/images/.gitkeep
+data/MM-WHS/labels/*
+!data/MM-WHS/labels/.gitkeep
+saved_models/*
+!saved_models/segmentation/.gitkeep

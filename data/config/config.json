@@ -1,0 +1,26 @@
+{
+  "epochs": 400,
+  "epoch_decay_steps": 400,
+  "epoch_loss_fading": 200,
+  "refine": 50,
+  "alpha": 0.01,
+  "lambda": 2000,
+  "learning_rate": 0.001,
+  "batch_size": 5,
+  "val_interval": 20,
+  "normalizer": "none",
+  "size": [96, 96, 96],
+  "spacing": [2, 2, 2],
+  "binarize": 0,
+  "num_classes": 8,
+  "class_mapping": {
+    "1": "myocardium",
+    "2": "left atrium",
+    "3": "left ventricle",
+    "4": "right atrium",
+    "5": "right ventricle",
+    "6": "aorta",
+    "7": "pulmonary artery"
+  },
+  "dataloader_cache_rate": 1.0
+}
